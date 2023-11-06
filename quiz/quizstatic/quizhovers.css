@@ -1,0 +1,61 @@
+.logo:hover{
+	transition:2s;
+	text-decoration:underline;
+	color:#868a83;
+}
+.nav-bar>div>a:hover{
+	transition:1.0s;
+	border-left:5px solid white;
+	border-right:5px solid white;
+	border-bottom:5px solid white;
+	color:#868a83;
+}
+.nav-bar>div:hover{
+	border-left:5px solid white;
+	border-right:5px solid white;
+	border-top:5px solid white;
+	color:#868a83;
+}
+.answers:hover{
+	opacity:0.8;
+}
+.check:hover{
+	opacity:0.8;
+	color:#868a83
+}
+.s1:hover{
+	color:#868a83;
+}
+.category:hover .categoryon{
+	display:flex;
+	flex-direction:column;
+	margin-top:670px;
+    
+}
+.start:hover{
+	color:#868a83;
+}
+@media only screen and (max-width: 600px) {
+	.body{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+	}
+  .answers_list {
+	  width:450px;
+	  height:200px;
+	  grid-template-columns:250px 250px;
+	  grid-template-rows:80px 80px;
+  }
+  .answers{
+	  font-size:15px;
+	  text-align:center;
+	  justify-self: stretch;
+  }
+  .question{
+	  width:500px;
+	  height:300px;
+	  font-size:12px;
+  }
+}
